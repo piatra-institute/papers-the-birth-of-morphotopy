@@ -1,0 +1,13 @@
+slug: the-birth-of-morphotopy
+web_slug: the-birth-of-morphotopy
+title: "The Birth of Morphotopy: From Earth-Measure to the Spaces of Life and Mind"
+header: "The Birth of Morphotopy"
+created: "2026-06"        # inception month (drives YYYY/MM archive path)
+date: null                    # publication month, e.g. "May 2026" (shown on web)
+paper_dir: paper
+has_simulation: true
+claims_target: results.json   # results.json | claim-ledger | none
+repo: git@github.com:piatra-institute/papers-the-birth-of-morphotopy.git
+github: https://github.com/piatra-institute/papers-the-birth-of-morphotopy
+status: draft                 # draft | built | published
+abstract: null

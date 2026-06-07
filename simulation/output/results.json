@@ -1,0 +1,191 @@
+{
+  "stratigraphy": {
+    "n_strata": 16,
+    "order_by_date": [
+      "earth-measure (geodesy)",
+      "Euclidean ideality",
+      "coordinate capture",
+      "projective space",
+      "non-Euclidean rupture",
+      "Riemannian internalization",
+      "transformation regime",
+      "topological continuity",
+      "phase-space / dynamics",
+      "space without points (topos)",
+      "biological morphospace",
+      "information geometry",
+      "conceptual spaces",
+      "semantic embeddings",
+      "problem-space (basal cognition)",
+      "morphotopy"
+    ],
+    "span_years": 3826,
+    "largest_gap_years": 1937,
+    "largest_gap_between": [
+      -300,
+      1637
+    ],
+    "pre_modern_span_years": 3629,
+    "modern_window_years": 197,
+    "strata_in_modern_window": 12,
+    "modern_window_fraction_of_span": 0.0515,
+    "median_emergence_year": 1895,
+    "mean_gap_premodern_years": 1146,
+    "mean_gap_modern_years": 18,
+    "acceleration_ratio": 64,
+    "strata": [
+      {
+        "stratum": "earth-measure (geodesy)",
+        "year": -1800,
+        "work": "Egyptian/Babylonian land survey"
+      },
+      {
+        "stratum": "Euclidean ideality",
+        "year": -300,
+        "work": "Euclid, Elements"
+      },
+      {
+        "stratum": "coordinate capture",
+        "year": 1637,
+        "work": "Descartes, La G\u00e9om\u00e9trie"
+      },
+      {
+        "stratum": "projective space",
+        "year": 1639,
+        "work": "Desargues"
+      },
+      {
+        "stratum": "non-Euclidean rupture",
+        "year": 1829,
+        "work": "Lobachevsky"
+      },
+      {
+        "stratum": "Riemannian internalization",
+        "year": 1854,
+        "work": "Riemann, Habilitationsvortrag"
+      },
+      {
+        "stratum": "transformation regime",
+        "year": 1872,
+        "work": "Klein, Erlangen Program"
+      },
+      {
+        "stratum": "topological continuity",
+        "year": 1895,
+        "work": "Poincar\u00e9, Analysis Situs"
+      },
+      {
+        "stratum": "phase-space / dynamics",
+        "year": 1902,
+        "work": "Gibbs"
+      },
+      {
+        "stratum": "space without points (topos)",
+        "year": 1963,
+        "work": "Grothendieck"
+      },
+      {
+        "stratum": "biological morphospace",
+        "year": 1966,
+        "work": "Raup"
+      },
+      {
+        "stratum": "information geometry",
+        "year": 1985,
+        "work": "Amari"
+      },
+      {
+        "stratum": "conceptual spaces",
+        "year": 2000,
+        "work": "G\u00e4rdenfors"
+      },
+      {
+        "stratum": "semantic embeddings",
+        "year": 2013,
+        "work": "Mikolov et al."
+      },
+      {
+        "stratum": "problem-space (basal cognition)",
+        "year": 2022,
+        "work": "Levin, TAME"
+      },
+      {
+        "stratum": "morphotopy",
+        "year": 2026,
+        "work": "this paper"
+      }
+    ]
+  },
+  "frustration": {
+    "coupling_J": 1.0,
+    "triangle": {
+      "n_spins": 3,
+      "n_bonds": 3,
+      "ground_energy": -1.0,
+      "sum_of_local_minima": -3.0,
+      "global_minus_local": 2.0,
+      "is_frustrated": true,
+      "ground_degeneracy": 6,
+      "frustrated_bond_fraction": 0.3333,
+      "residual_entropy_per_spin": 0.5973
+    },
+    "square": {
+      "n_spins": 4,
+      "n_bonds": 4,
+      "ground_energy": -4.0,
+      "sum_of_local_minima": -4.0,
+      "global_minus_local": 0.0,
+      "is_frustrated": false,
+      "ground_degeneracy": 2,
+      "frustrated_bond_fraction": 0.0,
+      "residual_entropy_per_spin": 0.1733
+    },
+    "triangular_lattices": [
+      {
+        "L": [
+          3,
+          3
+        ],
+        "n_spins": 9,
+        "n_bonds": 27,
+        "ground_energy_per_bond": -0.3333,
+        "ground_degeneracy": 42,
+        "frustrated_bond_fraction": 0.3333,
+        "residual_entropy_per_spin": 0.4153
+      },
+      {
+        "L": [
+          3,
+          4
+        ],
+        "n_spins": 12,
+        "n_bonds": 36,
+        "ground_energy_per_bond": -0.3333,
+        "ground_degeneracy": 68,
+        "frustrated_bond_fraction": 0.3333,
+        "residual_entropy_per_spin": 0.3516
+      },
+      {
+        "L": [
+          4,
+          4
+        ],
+        "n_spins": 16,
+        "n_bonds": 48,
+        "ground_energy_per_bond": -0.3333,
+        "ground_degeneracy": 42,
+        "frustrated_bond_fraction": 0.3333,
+        "residual_entropy_per_spin": 0.2336
+      }
+    ],
+    "wannier_entropy_per_spin": 0.3231,
+    "triangle_global_minus_local": 2.0,
+    "square_global_minus_local": 0.0,
+    "triangle_frustrated_fraction": 0.3333,
+    "triangle_degeneracy": 6,
+    "square_degeneracy": 2,
+    "degeneracy_ratio": 3.0,
+    "lattice_frustrated_fraction": 0.3333,
+    "lattice_entropy_per_spin": 0.2336
+  }
+}
