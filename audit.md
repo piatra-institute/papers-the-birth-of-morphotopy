@@ -3,6 +3,28 @@
 Dated log of editorial passes and verification runs. Newest first.
 See the workspace docs (run `papers docs`): writing-pipeline.md §7 and refresh-pipeline.md.
 
+## 2026-06-13 — voice reform
+
+Voice-reform pass for AI-writing tells. No number, equation, figure-caption value, table value, or citation touched; results.json claims reconcile (0 unmatched), refs unchanged (19 in-text keys, 41 entries, 0 missing).
+
+Syntax warns fixed (all ten review-candidates cleared, rewritten as positive declaratives or with "rather than"):
+- Abstract: pet "the move is not a set of independent metaphors but…" → "the recurrence is the latest phase… and that reading it as a set of independent metaphors misses that continuity."
+- §1: negate-pivot "The persistence of the old name is not a curiosity to be corrected. It is evidence." → "…is evidence rather than an oversight." (also "discipline" → "field").
+- §1: inline-contrastive "a regime of what could be made visible, not as a step…" → "…rather than as a step…".
+- §2.2: "the diagram is an aid to them, not the thing itself" → "the diagram serves merely as an aid to them while the objects remain elsewhere."
+- §3.2: "an aesthetic judgment, not a contradiction" → "an aesthetic judgment standing in for the contradiction he never reached."
+- §5.1: negate-pivot "its referents are not figures in a space. They are possible evolutions" → "its referents are possible evolutions rather than figures in a space."
+- §7.2: pet "earns its place" → "is justified"; inline-contrastive "not merely the actual ones" → "the unrealized ones included".
+- §7.3: "an organizing claim with a test attached, not a new mathematics" → "…and it leaves the mathematics of each domain where it found it."
+- §9.1: "The criterion, not the name, is the part…" → "The criterion is the part… ; the name is the part that can be argued over."
+- §9.2: also removed an uncaught "not a concession that weakens… but the discipline…" → "strengthens the programme rather than conceding anything…", dropping the last "discipline".
+
+Density: broke the abstract opening tricolon "movement, transformation, and constraint" → "constrained movement"; thinned pet "carries" at two sites (abstract "carries across" → "recurs across"; §6.1 "carries its own correction" → "comes with"); deleted scope-hedge "precisely" in the §9.2 closing. The 15 "exactly" uses are exact-computation or exact-mathematical-statement language (§7.4, §8.1, §8.2) and are protected by the no-number constraint; left intact. No structure advisory fired (the paper already avoids a bare Conclusion / bolt-on Limits), so no retitle or fold.
+
+Lexical-density advisory: before exactly 15, carries/carry 11, precisely 3, discipline 2, genuinely 1, earns 1; tricolon proxy 84. After exactly 15, carries/carry 8, precisely 2, discipline 0, genuinely 1, earns 0; tricolon proxy 85.
+
+Verify: voice 0 errors / 0 warns; refs OK (0 missing, count unchanged); build OK, 0 missing-character warnings; claims reconcile (8 decimal claims, 0 unmatched); check => PASS.
+
 ## 2026-06-07 (figures + sim depth) — embed the figures, make the computation load-bearing
 
 User: the simulation figures were not in the paper; is the sim finished; can it be
