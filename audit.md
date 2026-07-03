@@ -227,3 +227,14 @@ Verification:
   - build: <pages, missing-char warnings>
   - check => PASS/FAIL
 -->
+
+---
+
+## 2026-07-03 — reform pass (de-oversell invariant + granularity caveat + de-template)
+
+Corpus reform. The §8.2 caveat ("What the model does not do is measure the frustration of any particular applied space... leaves its appearance... to be established case by case") and the "dating is conventional" note were already honest; the abstract and §7.4 overclaimed past them.
+
+- paper/PAPER.md + metadata.yaml abstract, and §7.4: the "invariant" that "recurs across the strata" / "carries across the strata" is exhibited in exactly one stratum (the antiferromagnetic spin model). Reframed frustration as an obstruction "definable in any of these spaces" that we "exhibit exactly in a minimal spin model, the one stratum where it can be computed cleanly, and argue rather than demonstrate its recurrence elsewhere." Retitled §7.4 "One invariant" -> "One recurring obstruction" and softened §9.1's back-reference.
+- paper/PAPER.md §8.1: added that the acceleration is partly a counting artifact of the chosen stratum granularity, "individuating the recent phases finely while treating antiquity in a few broad blocks builds part of the acceleration into the stratification before any date is read."
+- paper/PAPER.md §9: retitled "What the Geometry Does Not Reach" -> "The Test, the Boundary, and the New Terrains" (morphotopy was on the templated-closer census list), naming its three concrete subsections; the falsifiability test, the experience boundary, and the closing image are unchanged.
+- Verify: voice 0 errors; refs 0 missing/0 unused; claims 0 unmatched; check => PASS; synced.
