@@ -1,0 +1,36 @@
+{
+  "schema": 1,
+  "id": "morphotopy",
+  "started": "2026-09-23T03:34:08.996801+00:00",
+  "finished": "2026-09-23T03:34:09.963420+00:00",
+  "command": [
+    "uv",
+    "run",
+    "python",
+    "run_all.py"
+  ],
+  "cwd": "simulation",
+  "runtime": {
+    "scope": "recorder",
+    "python": "3.12.4 (v3.12.4:8e8a4baf65, Jun  6 2024, 17:33:18) [Clang 13.0.0 (clang-1300.0.29.30)]",
+    "platform": "macOS-15.1-arm64-arm-64bit"
+  },
+  "execution_result": null,
+  "execution": {
+    "status": "PASS",
+    "exit_code": 0,
+    "detail": "command completed"
+  },
+  "input_scope": "execution-v1",
+  "additional_inputs": [],
+  "inputs": {
+    "simulation/analyses.py": "a95c900243c78da10c8d3152c08b6ad34edf13ab6972cd9ce283fa95ceae2050",
+    "simulation/figures.py": "d812dd383493f5e44c8c6c391165703129394c92d461888e1965c2b782381cfe",
+    "simulation/pyproject.toml": "dbe35dd19e5d27d9bbb6af9ee07192ee4ba45d01498ed94985b090d058ba9130",
+    "simulation/run_all.py": "2c614a04b59bf1e900b061b53c13d07cde8d2c0d0ef1605690f65ae5356c4e6a",
+    "simulation/uv.lock": "69cb3e313ab2f3981a6d2f0c7cf48c1fead51f66028400c082b24d3a489d2f1f"
+  },
+  "artifacts": {
+    "simulation/output/results.json": "6cb97aa4ea4aa128e3b3c63fac1d9aeedce14ae1e4290fb4d6bdfcf1d7b91e39"
+  }
+}

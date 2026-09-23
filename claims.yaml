@@ -1,0 +1,597 @@
+schema: 1
+coverage: reviewed
+reviewed_manuscript_sha256: ae44a29d8cf589ec973faa395b0304aace5376c6b5d3c700a6b08ab593a7dd81
+claims:
+- id: abs-modern-count
+  kind: computation
+  passage: Dating sixteen strata shows that 12 fall within the last 197 of 3826 years, with the mean interval
+    between strata contracting from about 1146 years to about 18, an acceleration that partly reflects
+    how finely recent strata are individuated.
+  evidence:
+    file: simulation/output/results.json
+    run_id: morphotopy
+    pointer: /stratigraphy/strata_in_modern_window
+    reported: '12'
+    units: strata
+    conditions: sixteen dated strata in simulation/analyses.py (STRATA); modern threshold 1829
+    decimals: 0
+- id: abs-modern-window
+  kind: computation
+  passage: Dating sixteen strata shows that 12 fall within the last 197 of 3826 years, with the mean interval
+    between strata contracting from about 1146 years to about 18, an acceleration that partly reflects
+    how finely recent strata are individuated.
+  evidence:
+    file: simulation/output/results.json
+    run_id: morphotopy
+    pointer: /stratigraphy/modern_window_years
+    reported: '197'
+    units: years
+    conditions: sixteen dated strata in simulation/analyses.py (STRATA); modern threshold 1829
+    decimals: 0
+- id: abs-span
+  kind: computation
+  passage: Dating sixteen strata shows that 12 fall within the last 197 of 3826 years, with the mean interval
+    between strata contracting from about 1146 years to about 18, an acceleration that partly reflects
+    how finely recent strata are individuated.
+  evidence:
+    file: simulation/output/results.json
+    run_id: morphotopy
+    pointer: /stratigraphy/span_years
+    reported: '3826'
+    units: years
+    conditions: sixteen dated strata in simulation/analyses.py (STRATA); modern threshold 1829
+    decimals: 0
+- id: abs-gap-premodern
+  kind: computation
+  passage: Dating sixteen strata shows that 12 fall within the last 197 of 3826 years, with the mean interval
+    between strata contracting from about 1146 years to about 18, an acceleration that partly reflects
+    how finely recent strata are individuated.
+  evidence:
+    file: simulation/output/results.json
+    run_id: morphotopy
+    pointer: /stratigraphy/mean_gap_premodern_years
+    reported: '1146'
+    units: years
+    conditions: sixteen dated strata in simulation/analyses.py (STRATA); modern threshold 1829
+    decimals: 0
+- id: abs-gap-modern
+  kind: computation
+  passage: Dating sixteen strata shows that 12 fall within the last 197 of 3826 years, with the mean interval
+    between strata contracting from about 1146 years to about 18, an acceleration that partly reflects
+    how finely recent strata are individuated.
+  evidence:
+    file: simulation/output/results.json
+    run_id: morphotopy
+    pointer: /stratigraphy/mean_gap_modern_years
+    reported: '18'
+    units: years
+    conditions: sixteen dated strata in simulation/analyses.py (STRATA); modern threshold 1829
+    decimals: 0
+- id: span
+  kind: computation
+  passage: With these qualifications, the strata span $3826$ years, and the largest interval between consecutive
+    strata is the $1937$ years from Euclid to Descartes, the long interval described in Section 3.
+  evidence:
+    file: simulation/output/results.json
+    run_id: morphotopy
+    pointer: /stratigraphy/span_years
+    reported: '3826'
+    units: years
+    conditions: sixteen dated strata in simulation/analyses.py (STRATA); modern threshold 1829
+    decimals: 0
+- id: largest-gap
+  kind: computation
+  passage: With these qualifications, the strata span $3826$ years, and the largest interval between consecutive
+    strata is the $1937$ years from Euclid to Descartes, the long interval described in Section 3.
+  evidence:
+    file: simulation/output/results.json
+    run_id: morphotopy
+    pointer: /stratigraphy/largest_gap_years
+    reported: '1937'
+    units: years between Euclid (-300) and Descartes (1637)
+    conditions: sixteen dated strata in simulation/analyses.py (STRATA); modern threshold 1829
+    decimals: 0
+- id: modern-count
+  kind: computation
+  passage: Taking the non-Euclidean geometry of 1829 as the threshold of the modern regime, $12$ of the
+    $16$ strata fall within the final $197$ years, three quarters of the strata within about the last
+    twentieth of the span.
+  evidence:
+    file: simulation/output/results.json
+    run_id: morphotopy
+    pointer: /stratigraphy/strata_in_modern_window
+    reported: '12'
+    units: strata
+    conditions: sixteen dated strata in simulation/analyses.py (STRATA); modern threshold 1829
+    decimals: 0
+- id: n-strata
+  kind: computation
+  passage: Taking the non-Euclidean geometry of 1829 as the threshold of the modern regime, $12$ of the
+    $16$ strata fall within the final $197$ years, three quarters of the strata within about the last
+    twentieth of the span.
+  evidence:
+    file: simulation/output/results.json
+    run_id: morphotopy
+    pointer: /stratigraphy/n_strata
+    reported: '16'
+    units: strata
+    conditions: sixteen dated strata in simulation/analyses.py (STRATA); modern threshold 1829
+    decimals: 0
+- id: modern-window
+  kind: computation
+  passage: Taking the non-Euclidean geometry of 1829 as the threshold of the modern regime, $12$ of the
+    $16$ strata fall within the final $197$ years, three quarters of the strata within about the last
+    twentieth of the span.
+  evidence:
+    file: simulation/output/results.json
+    run_id: morphotopy
+    pointer: /stratigraphy/modern_window_years
+    reported: '197'
+    units: years
+    conditions: sixteen dated strata in simulation/analyses.py (STRATA); modern threshold 1829
+    decimals: 0
+- id: median-year
+  kind: computation
+  passage: Half the strata exist only by $1895$, in a history that begins around $1800$ BCE.
+  evidence:
+    file: simulation/output/results.json
+    run_id: morphotopy
+    pointer: /stratigraphy/median_emergence_year
+    reported: '1895'
+    units: calendar year
+    conditions: sixteen dated strata in simulation/analyses.py (STRATA); modern threshold 1829
+    decimals: 0
+- id: gap-premodern
+  kind: computation
+  passage: The mean interval between consecutive strata within each era is about $1146$ years before the
+    threshold and about $18$ years after it, a contraction by a factor of about $64$.
+  evidence:
+    file: simulation/output/results.json
+    run_id: morphotopy
+    pointer: /stratigraphy/mean_gap_premodern_years
+    reported: '1146'
+    units: years
+    conditions: sixteen dated strata in simulation/analyses.py (STRATA); modern threshold 1829
+    decimals: 0
+- id: gap-modern
+  kind: computation
+  passage: The mean interval between consecutive strata within each era is about $1146$ years before the
+    threshold and about $18$ years after it, a contraction by a factor of about $64$.
+  evidence:
+    file: simulation/output/results.json
+    run_id: morphotopy
+    pointer: /stratigraphy/mean_gap_modern_years
+    reported: '18'
+    units: years
+    conditions: sixteen dated strata in simulation/analyses.py (STRATA); modern threshold 1829
+    decimals: 0
+- id: acceleration
+  kind: computation
+  passage: The mean interval between consecutive strata within each era is about $1146$ years before the
+    threshold and about $18$ years after it, a contraction by a factor of about $64$.
+  evidence:
+    file: simulation/output/results.json
+    run_id: morphotopy
+    pointer: /stratigraphy/acceleration_ratio
+    reported: '64'
+    units: ratio of mean intervals
+    conditions: sixteen dated strata in simulation/analyses.py (STRATA); modern threshold 1829
+    decimals: 0
+- id: triangle-ground
+  kind: computation
+  passage: The lowest attainable energy is $-1.0$ in units of the coupling, while the three bonds taken
+    separately could reach $-3.0$, so the global optimum lies $2.0$ above the sum of the local optima
+    and the inequality holds strictly.
+  evidence:
+    file: simulation/output/results.json
+    run_id: morphotopy
+    pointer: /frustration/triangle/ground_energy
+    reported: '-1.0'
+    units: coupling J
+    conditions: exact enumeration of all spin states, antiferromagnetic coupling J = 1; triangle
+    decimals: 1
+- id: triangle-local
+  kind: computation
+  passage: The lowest attainable energy is $-1.0$ in units of the coupling, while the three bonds taken
+    separately could reach $-3.0$, so the global optimum lies $2.0$ above the sum of the local optima
+    and the inequality holds strictly.
+  evidence:
+    file: simulation/output/results.json
+    run_id: morphotopy
+    pointer: /frustration/triangle/sum_of_local_minima
+    reported: '-3.0'
+    units: coupling J
+    conditions: exact enumeration of all spin states, antiferromagnetic coupling J = 1; triangle
+    decimals: 1
+- id: triangle-gap
+  kind: computation
+  passage: The lowest attainable energy is $-1.0$ in units of the coupling, while the three bonds taken
+    separately could reach $-3.0$, so the global optimum lies $2.0$ above the sum of the local optima
+    and the inequality holds strictly.
+  evidence:
+    file: simulation/output/results.json
+    run_id: morphotopy
+    pointer: /frustration/triangle/global_minus_local
+    reported: '2.0'
+    units: coupling J
+    conditions: exact enumeration of all spin states, antiferromagnetic coupling J = 1; triangle
+    decimals: 1
+- id: triangle-entropy
+  kind: computation
+  passage: The ground state is sixfold degenerate, with one of the three bonds unsatisfied in each ground
+    configuration, and the residual entropy is $0.5973$ per spin.
+  evidence:
+    file: simulation/output/results.json
+    run_id: morphotopy
+    pointer: /frustration/triangle/residual_entropy_per_spin
+    reported: '0.5973'
+    units: k_B per spin
+    conditions: exact enumeration of all spin states, antiferromagnetic coupling J = 1; triangle, sixfold
+      ground state
+    decimals: 4
+- id: square-ground
+  kind: computation
+  passage: 'The square, an even cycle and therefore unfrustrated, is the control: its four bonds are satisfied
+    together, its lowest energy of $-4.0$ equals the sum of the local minima, no bond is unsatisfied,
+    and its ground state is twofold degenerate, with residual entropy $0.1733$ per spin.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: morphotopy
+    pointer: /frustration/square/ground_energy
+    reported: '-4.0'
+    units: coupling J
+    conditions: exact enumeration of all spin states, antiferromagnetic coupling J = 1; square
+    decimals: 1
+- id: square-entropy
+  kind: computation
+  passage: 'The square, an even cycle and therefore unfrustrated, is the control: its four bonds are satisfied
+    together, its lowest energy of $-4.0$ equals the sum of the local minima, no bond is unsatisfied,
+    and its ground state is twofold degenerate, with residual entropy $0.1733$ per spin.'
+  evidence:
+    file: simulation/output/results.json
+    run_id: morphotopy
+    pointer: /frustration/square/residual_entropy_per_spin
+    reported: '0.1733'
+    units: k_B per spin
+    conditions: exact enumeration of all spin states, antiferromagnetic coupling J = 1; square
+    decimals: 4
+- id: lattice-deg-9
+  kind: computation
+  passage: The ground-state degeneracies, $42$, $68$, and $42$, vary non-monotonically with $N$, and the
+    residual entropies per spin are $0.4153$, $0.3516$, and $0.2336$, on either side of the exact thermodynamic
+    value of $0.3231$ per spin that @wannier1950 obtained for this lattice.
+  evidence:
+    file: simulation/output/results.json
+    run_id: morphotopy
+    pointer: /frustration/triangular_lattices/0/ground_degeneracy
+    reported: '42'
+    units: ground states
+    conditions: exact enumeration of all spin states, antiferromagnetic coupling J = 1; periodic triangular
+      lattices, N = 9
+    decimals: 0
+- id: lattice-deg-12
+  kind: computation
+  passage: The ground-state degeneracies, $42$, $68$, and $42$, vary non-monotonically with $N$, and the
+    residual entropies per spin are $0.4153$, $0.3516$, and $0.2336$, on either side of the exact thermodynamic
+    value of $0.3231$ per spin that @wannier1950 obtained for this lattice.
+  evidence:
+    file: simulation/output/results.json
+    run_id: morphotopy
+    pointer: /frustration/triangular_lattices/1/ground_degeneracy
+    reported: '68'
+    units: ground states
+    conditions: exact enumeration of all spin states, antiferromagnetic coupling J = 1; periodic triangular
+      lattices, N = 12
+    decimals: 0
+- id: lattice-deg-16
+  kind: computation
+  passage: The ground-state degeneracies, $42$, $68$, and $42$, vary non-monotonically with $N$, and the
+    residual entropies per spin are $0.4153$, $0.3516$, and $0.2336$, on either side of the exact thermodynamic
+    value of $0.3231$ per spin that @wannier1950 obtained for this lattice.
+  evidence:
+    file: simulation/output/results.json
+    run_id: morphotopy
+    pointer: /frustration/triangular_lattices/2/ground_degeneracy
+    reported: '42'
+    units: ground states
+    conditions: exact enumeration of all spin states, antiferromagnetic coupling J = 1; periodic triangular
+      lattices, N = 16
+    decimals: 0
+- id: lattice-s-9
+  kind: computation
+  passage: The ground-state degeneracies, $42$, $68$, and $42$, vary non-monotonically with $N$, and the
+    residual entropies per spin are $0.4153$, $0.3516$, and $0.2336$, on either side of the exact thermodynamic
+    value of $0.3231$ per spin that @wannier1950 obtained for this lattice.
+  evidence:
+    file: simulation/output/results.json
+    run_id: morphotopy
+    pointer: /frustration/triangular_lattices/0/residual_entropy_per_spin
+    reported: '0.4153'
+    units: k_B per spin
+    conditions: exact enumeration of all spin states, antiferromagnetic coupling J = 1; periodic triangular
+      lattices, N = 9
+    decimals: 4
+- id: lattice-s-12
+  kind: computation
+  passage: The ground-state degeneracies, $42$, $68$, and $42$, vary non-monotonically with $N$, and the
+    residual entropies per spin are $0.4153$, $0.3516$, and $0.2336$, on either side of the exact thermodynamic
+    value of $0.3231$ per spin that @wannier1950 obtained for this lattice.
+  evidence:
+    file: simulation/output/results.json
+    run_id: morphotopy
+    pointer: /frustration/triangular_lattices/1/residual_entropy_per_spin
+    reported: '0.3516'
+    units: k_B per spin
+    conditions: exact enumeration of all spin states, antiferromagnetic coupling J = 1; periodic triangular
+      lattices, N = 12
+    decimals: 4
+- id: lattice-s-16
+  kind: computation
+  passage: The ground-state degeneracies, $42$, $68$, and $42$, vary non-monotonically with $N$, and the
+    residual entropies per spin are $0.4153$, $0.3516$, and $0.2336$, on either side of the exact thermodynamic
+    value of $0.3231$ per spin that @wannier1950 obtained for this lattice.
+  evidence:
+    file: simulation/output/results.json
+    run_id: morphotopy
+    pointer: /frustration/triangular_lattices/2/residual_entropy_per_spin
+    reported: '0.2336'
+    units: k_B per spin
+    conditions: exact enumeration of all spin states, antiferromagnetic coupling J = 1; periodic triangular
+      lattices, N = 16
+    decimals: 4
+- id: wannier-value
+  kind: computation
+  passage: The ground-state degeneracies, $42$, $68$, and $42$, vary non-monotonically with $N$, and the
+    residual entropies per spin are $0.4153$, $0.3516$, and $0.2336$, on either side of the exact thermodynamic
+    value of $0.3231$ per spin that @wannier1950 obtained for this lattice.
+  evidence:
+    file: simulation/output/results.json
+    run_id: morphotopy
+    pointer: /frustration/wannier_entropy_per_spin
+    reported: '0.3231'
+    units: k_B per spin
+    conditions: literature constant (Wannier 1950) stored with the results for comparison; not computed
+      by the enumeration
+    decimals: 4
+- id: gurnee-space-time
+  kind: source
+  passage: '@gurnee2023 recover from a language model linear directions encoding the latitude and longitude
+    of places and the dates of events, with individual units tracking these coordinates.'
+  evidence:
+    citation_id: gurnee2023
+    locator: Abstract
+    verified: true
+    verification_note: 'Abstract read through the arXiv DOI record (DataCite) and arXiv: LLMs learn linear
+      representations of space and time (world, US and NYC places; historical figures, artworks, headlines)
+      and individual ''space neurons'' and ''time neurons'' encode spatial and temporal coordinates.'
+- id: li-othello
+  kind: source
+  passage: Li and colleagues [-@li2023] train a network only on sequences of legal moves in the board
+    game Othello, without ever showing it a board, and find in its activations a representation of the
+    current position that a probe can read and that, when edited, changes the model's subsequent play
+    to match the altered board.
+  evidence:
+    citation_id: li2023
+    locator: Abstract
+    verified: true
+    verification_note: 'Abstract read through the arXiv DOI record: a GPT variant trained to predict legal
+      Othello moves develops an emergent internal representation of the board state, and interventional
+      experiments show the representation controls the network''s output.'
+- id: nanda-circle
+  kind: source
+  passage: Nanda and colleagues [-@nanda2023], reverse-engineering a small transformer trained on addition
+    modulo a prime, find that it embeds each number as a point on a circle given by the sine and cosine
+    of an angle and computes sums by composing rotations through the trigonometric identities for the
+    sine and cosine of $a + b$, then reading the angle of the result.
+  evidence:
+    citation_id: nanda2023
+    locator: Abstract
+    verified: true
+    verification_note: 'Abstract read at arxiv.org/abs/2301.05217: the algorithm learned for modular addition
+      uses discrete Fourier transforms and trigonometric identities to convert addition to rotation about
+      a circle, confirmed by ablations in Fourier space.'
+- id: engels-circles
+  kind: source
+  passage: Engels and colleagues [-@engels2024] find the same circular structure arising spontaneously
+    in large models for days of the week and months of the year, irreducibly two-dimensional features
+    used for modular arithmetic over the calendar.
+  evidence:
+    citation_id: engels2024
+    locator: Abstract
+    verified: true
+    verification_note: 'Abstract read through the arXiv DOI record: sparse autoencoders find circular
+      features for days of the week and months of the year in GPT-2 and Mistral 7B, used in modular-arithmetic
+      tasks and shown by intervention to be the unit of computation; the features are irreducibly multi-dimensional.'
+- id: kantamneni-helix
+  kind: source
+  passage: '@kantamneni2025 generalize the circle to a helix, showing that a model represents integers
+    along an axis linear in the number and wound with several periods at once, and adds two integers by
+    rotating their helices into the helix of the sum, an operation they call the Clock algorithm and confirm
+    by intervening on the helical directions.'
+  evidence:
+    citation_id: kantamneni2025
+    locator: Abstract
+    verified: true
+    verification_note: 'Abstract read through the arXiv DOI record: numbers are represented as a generalized
+      helix, addition is computed by the ''Clock'' algorithm manipulating the helices for a and b into
+      the helix for a+b, verified with causal interventions.'
+- id: huh-convergence
+  kind: source
+  passage: 'Huh and colleagues [-@huh2024] argue that the convergence is general: networks trained on
+    different data and even different modalities come to measure similarity among inputs in increasingly
+    similar ways, as if approaching a shared representational geometry.'
+  evidence:
+    citation_id: huh2024
+    locator: Abstract
+    verified: true
+    verification_note: 'Abstract read through the arXiv DOI record: representations in different networks
+      are converging, and across modalities vision and language models measure distance between datapoints
+      in increasingly alike ways.'
+- id: bronstein-erlangen
+  kind: source
+  passage: In the account of Bronstein and colleagues [-@bronstein2021], the dominant architectures of
+    machine learning are instances of the Erlangen principle, each determined by the symmetry group of
+    the data it processes.
+  evidence:
+    citation_id: bronstein2021
+    locator: Abstract
+    verified: true
+    verification_note: 'Abstract read through the arXiv DOI record: a geometric unification in the spirit
+      of Klein''s Erlangen Program that provides a common framework for CNNs, RNNs, GNNs and Transformers
+      by exposing symmetry regularities.'
+- id: durant-two-heads
+  kind: source
+  passage: 'The target morphology toward which its cells rebuild after amputation is encoded in part in
+    a stable pattern of bioelectric voltage across the tissue, in addition to the genome, and a brief
+    manipulation of that pattern can permanently rewrite the target: a cut fragment regenerates two heads
+    in place of one and, left undisturbed, continues to regenerate two heads in later rounds of cutting,
+    with its genome unchanged [@durant2017].'
+  evidence:
+    citation_id: durant2017
+    locator: Abstract
+    verified: true
+    verification_note: 'Abstract read from Crossref (DOI 10.1016/j.bpj.2017.04.011): brief perturbation
+      of bioelectric networks yields double-headed regenerates, subsequent amputations of these animals
+      in water reproduce the double-headed morphology, while histology and polarity-gene expression are
+      unchanged; bioelectric state overrides genome-default target morphology.'
+- id: levin-problem-spaces
+  kind: source
+  passage: 'Levin''s framework [-@levin2022] gathers the strata of life and mind into a single claim:
+    problem-solving takes place in the anatomical, physiological, and transcriptional spaces of the body
+    as well as in an animal''s behavioural space, so that a developing or regenerating tissue that navigates
+    toward a target form and corrects displacements from it exhibits basal cognition, defined as the competent
+    steering of a system through a problem space toward adaptive regions despite perturbation.'
+  evidence:
+    citation_id: levin2022
+    locator: Abstract
+    verified: true
+    verification_note: 'Abstract read from Crossref (DOI 10.3389/fnsys.2022.768201): TAME posits a symmetry
+      between problem-solving in anatomical, physiological, transcriptional and behavioural spaces and
+      treats morphogenesis as an example of basal cognition.'
+- id: kriegeskorte-rsa
+  kind: source
+  passage: In neuroscience, representational similarity analysis [@kriegeskorte2008] characterizes a neural
+    population by the matrix of dissimilarities among its responses to a set of stimuli, making the representational
+    geometry of a brain region a measured object comparable across regions, animals, and models.
+  evidence:
+    citation_id: kriegeskorte2008
+    locator: Abstract
+    verified: true
+    verification_note: 'Abstract read from Crossref (DOI 10.3389/neuro.06.004.2008): RSA computes representational
+      dissimilarity matrices to relate representations across brain regions, measurement modalities, subjects,
+      species and computational models.'
+- id: tymoczko-orbifold
+  kind: source
+  passage: A chord of $n$ notes is a point in the quotient of the $n$-torus by the symmetric group, $T^n/S_n$,
+    an orbifold whose singular boundaries correspond to chords with doubled or evenly spaced notes; @tymoczko2006
+    shows that chords near these singularities admit efficient voice leading, short moves to neighbouring
+    chords, so that the harmonic practice composers reached by ear follows the geometry of the space,
+    with consonant triads clustered near its centre.
+  evidence:
+    citation_id: tymoczko2006
+    locator: Abstract
+    verified: true
+    verification_note: 'Abstract read from Crossref (DOI 10.1126/science.1126287): chords are points in
+      an orbifold, voice leadings are line segments, composers exploit short segments between near-symmetrical
+      chords, and consonant chords have characteristic near-symmetries.'
+- id: bramwell-spin-ice
+  kind: source
+  passage: In the spin ice of certain pyrochlore crystals the analogous local rule produces a very large
+    number of degenerate ground states, and the resulting residual disorder gives a measurable zero-point
+    entropy of the kind @pauling1935 identified in ordinary water ice [@bramwell2001].
+  evidence:
+    citation_id: bramwell2001
+    locator: Abstract
+    verified: true
+    verification_note: 'Abstract read from Crossref (DOI 10.1126/science.1064761): spin ice materials
+      have a disordered, macroscopically degenerate ground state precisely analogous to the proton disorder
+      in water ice that Pauling described.'
+- id: morphotopy-definition
+  kind: definition
+  passage: 'We propose *morphotopy*: the study of how forms, organisms, meanings, and agents occupy, generate,
+    and traverse spaces of possible form under constraint.'
+  rationale: Stipulative definition of the paper's central term; it names a phase of an existing practice
+    and makes no empirical claim by itself.
+- id: five-conditions
+  kind: definition
+  passage: The proposal is therefore stated as a test of five conditions that a treatment must meet to
+    be morphotopic.
+  rationale: Introduces the five-condition test that operationalizes the definition; the conditions are
+    stated in the following sentences and applied in Section 7.2.
+- id: frustration-definition
+  kind: definition
+  passage: 'Stated without the physics, the condition is
+
+    $$
+
+    \min_{x \in X} \sum_i E_i(x) \;>\; \sum_i \min_{x \in X} E_i(x),
+
+    $$
+
+    that is, the best attainable global state is strictly worse than the sum of the separately attainable
+    local optima.'
+  rationale: Defines frustration as strict inequality between the global minimum and the sum of local
+    minima; the equality case is shown to be the unfrustrated case in the next sentence.
+- id: dating-convention
+  kind: assumption
+  passage: The dating is conventional, and the earliest stratum is deliberately coarse, since earth-measure
+    has no single date; only the arithmetic on the chosen dates is exact.
+  rationale: The stratigraphy computation depends on a chosen representative work and date per stratum;
+    only the arithmetic on those dates is exact, so every stratigraphy number is conditional on this choice.
+- id: granularity-caveat
+  kind: interpretation
+  passage: 'The number of strata is also a consequential choice: individuating recent phases finely while
+    treating antiquity in a few broad blocks builds part of the acceleration into the stratification before
+    any date is read, so the contraction reported below reflects the chosen granularity as well as the
+    history.'
+  rationale: 'Qualifies the acceleration result: the contraction of intervals partly reflects finer individuation
+    of recent strata, not only historical tempo.'
+- id: last-twentieth
+  kind: interpretation
+  passage: Taking the non-Euclidean geometry of 1829 as the threshold of the modern regime, $12$ of the
+    $16$ strata fall within the final $197$ years, three quarters of the strata within about the last
+    twentieth of the span.
+  rationale: 'Verbal restatement of results.json values: 12/16 strata (three quarters) and modern_window_fraction_of_span
+    = 0.0515 (about one twentieth).'
+- id: one-third-fraction
+  kind: interpretation
+  passage: On periodic triangular lattices enumerated exactly at $N = 9$, $12$, and $16$ spins, the fraction
+    of bonds unsatisfied in the ground state is one third at every size, the same value as the single
+    triangle.
+  rationale: Verbal statement of frustrated_bond_fraction = 0.3333 for the triangle and for each lattice
+    in results.json (/frustration/triangular_lattices/*/frustrated_bond_fraction).
+- id: no-thermo-limit
+  kind: interpretation
+  passage: Tori this small are strongly affected by boundary conditions (the $4\times4$ torus cannot accommodate
+    the three-sublattice ground states), so the enumerations establish the persistence of the one-third
+    frustrated-bond fraction and a finite residual entropy of the right magnitude; they do not show convergence
+    to the thermodynamic limit.
+  rationale: Limits the inference from tori of 9-16 spins, whose entropies scatter on both sides of Wannier's
+    value and are boundary-dependent.
+- id: frustration-scope
+  kind: interpretation
+  passage: The model does not measure frustration in any applied space.
+  rationale: States that the enumeration exhibits the obstruction only in spin models; recurrence in other
+    spaces remains an argued, untested claim.
+- id: geometry-as-mechanism
+  kind: interpretation
+  passage: In the clearest of these cases the geometry is the mechanism that performs the computation,
+    open to measurement and intervention.
+  rationale: Interpretive conclusion from the cited interpretability studies, which report causal interventions
+    on geometric features; restricted to the clearest cases.
+- id: structure-not-experience
+  kind: interpretation
+  passage: None of it addresses the question @chalmers1995 isolated, why any such structure is accompanied
+    by experience at all.
+  rationale: 'Scope limit: a structural or geometric account of mind does not address why structure is
+    accompanied by experience.'
+- id: organizational-claim
+  kind: interpretation
+  passage: It is not new mathematics, and it does not predict which domain will next be rendered as a
+    space, although the acceleration in Section 8 suggests that such renderings will continue.
+  rationale: States the epistemic status of the proposal as historical and organizational, with its testable
+    content located in the five-condition criterion.
+runs:
+- id: morphotopy
+  required: true
+  record: verification/morphotopy.json

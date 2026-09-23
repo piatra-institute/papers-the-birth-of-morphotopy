@@ -1,0 +1,620 @@
+# CSL references with stable IDs; cite with Pandoc [@id] syntax.
+# Migrated from the legacy inline bibliography. Entries with a DOI were resolved through doi.org
+# content negotiation (CSL-JSON) and checked for year and title; others were matched in Crossref,
+# OpenAlex or the arXiv DOI registry, or entered by hand. Provenance per entry is in sources.md.
+references:
+- id: amari2000
+  type: book
+  title: Methods of Information Geometry
+  author:
+  - given: Shun-ichi
+    family: Amari
+  - given: Hiroshi
+    family: Nagaoka
+  collection-title: Translations of Mathematical Monographs
+  collection-number: '191'
+  publisher: American Mathematical Society and Oxford University Press
+  publisher-place: Providence, RI
+  issued:
+    date-parts:
+    - - 2000
+- id: beltrami1868
+  type: article-journal
+  title: Saggio di interpretazione della geometria non-euclidea
+  author:
+  - given: Eugenio
+    family: Beltrami
+  container-title: Giornale di Matematiche
+  volume: '6'
+  page: 284-312
+  issued:
+    date-parts:
+    - - 1868
+  language: it
+- id: bengio2003
+  type: article-journal
+  title: A Neural Probabilistic Language Model
+  author:
+  - given: Yoshua
+    family: Bengio
+  - given: Réjean
+    family: Ducharme
+  - given: Pascal
+    family: Vincent
+  - given: Christian
+    family: Jauvin
+  container-title: Journal of Machine Learning Research
+  volume: '3'
+  page: 1137-1155
+  URL: https://www.jmlr.org/papers/v3/bengio03a.html
+  issued:
+    date-parts:
+    - - 2003
+- id: billera2001
+  type: article-journal
+  title: Geometry of the Space of Phylogenetic Trees
+  author:
+  - given: Louis J.
+    family: Billera
+  - given: Susan P.
+    family: Holmes
+  - given: Karen
+    family: Vogtmann
+  container-title: Advances in Applied Mathematics
+  volume: '27'
+  issue: '4'
+  page: 733-767
+  DOI: 10.1006/aama.2001.0759
+  issued:
+    date-parts:
+    - - 2001
+- id: bramwell2001
+  type: article-journal
+  title: Spin Ice State in Frustrated Magnetic Pyrochlore Materials
+  author:
+  - given: Steven T.
+    family: Bramwell
+  - given: Michel J. P.
+    family: Gingras
+  container-title: Science
+  volume: '294'
+  issue: '5546'
+  page: 1495-1501
+  DOI: 10.1126/science.1064761
+  issued:
+    date-parts:
+    - - 2001
+- id: bronstein2021
+  type: article
+  title: 'Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges'
+  author:
+  - given: Michael M.
+    family: Bronstein
+  - given: Joan
+    family: Bruna
+  - given: Taco
+    family: Cohen
+  - given: Petar
+    family: Veličković
+  number: arXiv:2104.13478
+  DOI: 10.48550/arXiv.2104.13478
+  issued:
+    date-parts:
+    - - 2021
+  publisher: arXiv
+- id: carlsson2009
+  type: article-journal
+  title: Topology and Data
+  author:
+  - given: Gunnar
+    family: Carlsson
+  container-title: Bulletin of the American Mathematical Society
+  volume: '46'
+  issue: '2'
+  page: 255-308
+  DOI: 10.1090/S0273-0979-09-01249-X
+  issued:
+    date-parts:
+    - - 2009
+- id: chalmers1995
+  type: article-journal
+  title: Facing Up to the Problem of Consciousness
+  author:
+  - given: David J.
+    family: Chalmers
+  container-title: Journal of Consciousness Studies
+  volume: '2'
+  issue: '3'
+  page: 200-219
+  issued:
+    date-parts:
+    - - 1995
+- id: riemann1873
+  type: article-journal
+  title: On the Hypotheses Which Lie at the Bases of Geometry
+  author:
+  - given: Bernhard
+    family: Riemann
+  translator:
+  - given: William Kingdon
+    family: Clifford
+  container-title: Nature
+  volume: '8'
+  page: 14-17, 36-37
+  DOI: 10.1038/008014a0
+  issued:
+    date-parts:
+    - - 1873
+- id: desargues1639
+  type: book
+  title: Brouillon project d'une atteinte aux événemens des rencontres du cône avec un plan
+  author:
+  - given: Girard
+    family: Desargues
+  publisher-place: Paris
+  issued:
+    date-parts:
+    - - 1639
+  language: fr
+- id: descartes1637
+  type: chapter
+  title: La Géométrie
+  author:
+  - given: René
+    family: Descartes
+  container-title: Discours de la méthode pour bien conduire sa raison, et chercher la vérité dans les
+    sciences
+  publisher: Ian Maire
+  publisher-place: Leiden
+  issued:
+    date-parts:
+    - - 1637
+  language: fr
+- id: durant2017
+  type: article-journal
+  title: Long-Term, Stochastic Editing of Regenerative Anatomy via Targeting Endogenous Bioelectric Gradients
+  author:
+  - given: Fallon
+    family: Durant
+  - given: Junji
+    family: Morokuma
+  - given: Christopher
+    family: Fields
+  - given: Katherine
+    family: Williams
+  - given: Dany Spencer
+    family: Adams
+  - given: Michael
+    family: Levin
+  container-title: Biophysical Journal
+  volume: '112'
+  issue: '10'
+  page: 2231-2243
+  DOI: 10.1016/j.bpj.2017.04.011
+  issued:
+    date-parts:
+    - - 2017
+- id: einstein1916
+  type: article-journal
+  title: Die Grundlage der allgemeinen Relativitätstheorie
+  author:
+  - given: Albert
+    family: Einstein
+  container-title: Annalen der Physik
+  volume: '354'
+  issue: '7'
+  page: 769-822
+  DOI: 10.1002/andp.19163540702
+  issued:
+    date-parts:
+    - - 1916
+  language: de
+- id: engels2024
+  type: article
+  title: Not All Language Model Features Are One-Dimensionally Linear
+  author:
+  - given: Joshua
+    family: Engels
+  - given: Eric J.
+    family: Michaud
+  - given: Isaac
+    family: Liao
+  - given: Wes
+    family: Gurnee
+  - given: Max
+    family: Tegmark
+  number: arXiv:2405.14860
+  DOI: 10.48550/arXiv.2405.14860
+  issued:
+    date-parts:
+    - - 2024
+  publisher: arXiv
+- id: euclid1956
+  type: book
+  title: The Thirteen Books of Euclid's Elements
+  author:
+  - literal: Euclid
+  translator:
+  - given: Thomas L.
+    family: Heath
+  edition: '2'
+  publisher: Dover
+  publisher-place: New York
+  note: Composed c. 300 BCE.
+  issued:
+    date-parts:
+    - - 1956
+- id: gardenfors2000
+  type: book
+  title: 'Conceptual Spaces: The Geometry of Thought'
+  author:
+  - given: Peter
+    family: Gärdenfors
+  publisher: MIT Press
+  publisher-place: Cambridge, MA
+  DOI: 10.7551/mitpress/2076.001.0001
+  issued:
+    date-parts:
+    - - 2000
+- id: gauss1828
+  type: article-journal
+  title: Disquisitiones generales circa superficies curvas
+  author:
+  - given: Carl Friedrich
+    family: Gauss
+  container-title: Commentationes Societatis Regiae Scientiarum Gottingensis Recentiores
+  volume: '6'
+  page: 99-146
+  issued:
+    date-parts:
+    - - 1828
+  language: la
+- id: gibbs1902
+  type: book
+  title: Elementary Principles in Statistical Mechanics
+  author:
+  - given: J. Willard
+    family: Gibbs
+  publisher: Charles Scribner's Sons
+  publisher-place: New York
+  DOI: 10.5962/bhl.title.32624
+  issued:
+    date-parts:
+    - - 1902
+- id: gray2008
+  type: book
+  title: 'Plato''s Ghost: The Modernist Transformation of Mathematics'
+  author:
+  - given: Jeremy
+    family: Gray
+  publisher: Princeton University Press
+  publisher-place: Princeton, NJ
+  DOI: 10.1515/9781400829040
+  issued:
+    date-parts:
+    - - 2008
+- id: gurnee2023
+  type: article
+  title: Language Models Represent Space and Time
+  author:
+  - given: Wes
+    family: Gurnee
+  - given: Max
+    family: Tegmark
+  number: arXiv:2310.02207
+  DOI: 10.48550/arXiv.2310.02207
+  issued:
+    date-parts:
+    - - 2023
+  publisher: arXiv
+- id: huh2024
+  type: paper-conference
+  title: The Platonic Representation Hypothesis
+  author:
+  - given: Minyoung
+    family: Huh
+  - given: Brian
+    family: Cheung
+  - given: Tongzhou
+    family: Wang
+  - given: Phillip
+    family: Isola
+  container-title: Proceedings of the 41st International Conference on Machine Learning
+  collection-title: Proceedings of Machine Learning Research
+  volume: '235'
+  DOI: 10.48550/arXiv.2405.07987
+  issued:
+    date-parts:
+    - - 2024
+- id: kantamneni2025
+  type: article
+  title: Language Models Use Trigonometry to Do Addition
+  author:
+  - given: Subhash
+    family: Kantamneni
+  - given: Max
+    family: Tegmark
+  number: arXiv:2502.00873
+  DOI: 10.48550/arXiv.2502.00873
+  issued:
+    date-parts:
+    - - 2025
+  publisher: arXiv
+- id: klein1872
+  type: book
+  title: Vergleichende Betrachtungen über neuere geometrische Forschungen
+  author:
+  - given: Felix
+    family: Klein
+  publisher: A. Deichert
+  publisher-place: Erlangen
+  note: 'English translation by M. W. Haskell, "A Comparative Review of Recent Researches in Geometry,"
+    Bulletin of the New York Mathematical Society 2 (1893): 215-249, https://doi.org/10.1090/S0002-9904-1893-00147-X.'
+  issued:
+    date-parts:
+    - - 1872
+  language: de
+- id: kriegeskorte2008
+  type: article-journal
+  title: 'Representational Similarity Analysis: Connecting the Branches of Systems Neuroscience'
+  author:
+  - given: Nikolaus
+    family: Kriegeskorte
+  - given: Marieke
+    family: Mur
+  - given: Peter A.
+    family: Bandettini
+  container-title: Frontiers in Systems Neuroscience
+  volume: '2'
+  page: '4'
+  DOI: 10.3389/neuro.06.004.2008
+  issued:
+    date-parts:
+    - - 2008
+- id: landauer1997
+  type: article-journal
+  title: 'A Solution to Plato''s Problem: The Latent Semantic Analysis Theory of Acquisition, Induction,
+    and Representation of Knowledge'
+  author:
+  - given: Thomas K.
+    family: Landauer
+  - given: Susan T.
+    family: Dumais
+  container-title: Psychological Review
+  volume: '104'
+  issue: '2'
+  page: 211-240
+  DOI: 10.1037/0033-295X.104.2.211
+  issued:
+    date-parts:
+    - - 1997
+- id: levin2022
+  type: article-journal
+  title: 'Technological Approach to Mind Everywhere: An Experimentally-Grounded Framework for Understanding
+    Diverse Bodies and Minds'
+  author:
+  - given: Michael
+    family: Levin
+  container-title: Frontiers in Systems Neuroscience
+  volume: '16'
+  page: '768201'
+  DOI: 10.3389/fnsys.2022.768201
+  issued:
+    date-parts:
+    - - 2022
+- id: li2023
+  type: paper-conference
+  title: 'Emergent World Representations: Exploring a Sequence Model Trained on a Synthetic Task'
+  author:
+  - given: Kenneth
+    family: Li
+  - given: Aspen K.
+    family: Hopkins
+  - given: David
+    family: Bau
+  - given: Fernanda
+    family: Viégas
+  - given: Hanspeter
+    family: Pfister
+  - given: Martin
+    family: Wattenberg
+  container-title: International Conference on Learning Representations
+  DOI: 10.48550/arXiv.2210.13382
+  issued:
+    date-parts:
+    - - 2023
+- id: lobachevsky1829
+  type: article-journal
+  title: O nachalakh geometrii [On the principles of geometry]
+  author:
+  - given: Nikolai I.
+    family: Lobachevsky
+  container-title: Kazanskii Vestnik [Kazan Messenger]
+  issued:
+    date-parts:
+    - - 1829
+  language: ru
+- id: maclane1992
+  type: book
+  title: 'Sheaves in Geometry and Logic: A First Introduction to Topos Theory'
+  author:
+  - given: Saunders
+    family: Mac Lane
+  - given: Ieke
+    family: Moerdijk
+  collection-title: Universitext
+  publisher: Springer
+  publisher-place: New York
+  issued:
+    date-parts:
+    - - 1992
+- id: mcghee1999
+  type: book
+  title: 'Theoretical Morphology: The Concept and Its Applications'
+  author:
+  - given: George R.
+    family: McGhee
+    suffix: Jr.
+  publisher: Columbia University Press
+  publisher-place: New York
+  issued:
+    date-parts:
+    - - 1999
+- id: mikolov2013
+  type: article
+  title: Efficient Estimation of Word Representations in Vector Space
+  author:
+  - given: Tomas
+    family: Mikolov
+  - given: Kai
+    family: Chen
+  - given: Greg
+    family: Corrado
+  - given: Jeffrey
+    family: Dean
+  number: arXiv:1301.3781
+  DOI: 10.48550/arXiv.1301.3781
+  issued:
+    date-parts:
+    - - 2013
+  publisher: arXiv
+- id: mitteroecker2009
+  type: article-journal
+  title: 'The Concept of Morphospaces in Evolutionary and Developmental Biology: Mathematics and Metaphors'
+  author:
+  - given: Philipp
+    family: Mitteroecker
+  - given: Simon M.
+    family: Huttegger
+  container-title: Biological Theory
+  volume: '4'
+  issue: '1'
+  page: 54-67
+  DOI: 10.1162/biot.2009.4.1.54
+  issued:
+    date-parts:
+    - - 2009
+- id: nanda2023
+  type: paper-conference
+  title: Progress Measures for Grokking via Mechanistic Interpretability
+  author:
+  - given: Neel
+    family: Nanda
+  - given: Lawrence
+    family: Chan
+  - given: Tom
+    family: Lieberum
+  - given: Jess
+    family: Smith
+  - given: Jacob
+    family: Steinhardt
+  container-title: International Conference on Learning Representations
+  DOI: 10.48550/arXiv.2301.05217
+  issued:
+    date-parts:
+    - - 2023
+- id: pauling1935
+  type: article-journal
+  title: The Structure and Entropy of Ice and of Other Crystals with Some Randomness of Atomic Arrangement
+  author:
+  - given: Linus
+    family: Pauling
+  container-title: Journal of the American Chemical Society
+  volume: '57'
+  issue: '12'
+  page: 2680-2684
+  DOI: 10.1021/ja01315a102
+  issued:
+    date-parts:
+    - - 1935
+- id: poincare1895
+  type: article-journal
+  title: Analysis Situs
+  author:
+  - given: Henri
+    family: Poincaré
+  container-title: Journal de l'École Polytechnique, 2e série
+  volume: '1'
+  page: 1-123
+  issued:
+    date-parts:
+    - - 1895
+- id: raup1966
+  type: article-journal
+  title: 'Geometric Analysis of Shell Coiling: General Problems'
+  author:
+  - given: David M.
+    family: Raup
+  container-title: Journal of Paleontology
+  volume: '40'
+  issue: '5'
+  page: 1178-1190
+  issued:
+    date-parts:
+    - - 1966
+- id: riemann1868
+  type: article-journal
+  title: Über die Hypothesen, welche der Geometrie zu Grunde liegen
+  author:
+  - given: Bernhard
+    family: Riemann
+  container-title: Abhandlungen der Königlichen Gesellschaft der Wissenschaften zu Göttingen
+  volume: '13'
+  page: 133-150
+  note: Lecture delivered 1854.
+  issued:
+    date-parts:
+    - - 1868
+  language: de
+- id: saccheri1733
+  type: book
+  title: Euclides ab omni naevo vindicatus
+  author:
+  - given: Girolamo
+    family: Saccheri
+  publisher: Paolo Antonio Montano
+  publisher-place: Milan
+  issued:
+    date-parts:
+    - - 1733
+  language: la
+- id: torretti1978
+  type: book
+  title: Philosophy of Geometry from Riemann to Poincaré
+  author:
+  - given: Roberto
+    family: Torretti
+  publisher: D. Reidel
+  publisher-place: Dordrecht
+  DOI: 10.1007/978-94-009-9909-1
+  issued:
+    date-parts:
+    - - 1978
+- id: tymoczko2006
+  type: article-journal
+  title: The Geometry of Musical Chords
+  author:
+  - given: Dmitri
+    family: Tymoczko
+  container-title: Science
+  volume: '313'
+  issue: '5783'
+  page: 72-74
+  DOI: 10.1126/science.1126287
+  issued:
+    date-parts:
+    - - 2006
+- id: wannier1950
+  type: article-journal
+  title: Antiferromagnetism. The Triangular Ising Net
+  author:
+  - given: G. H.
+    family: Wannier
+  container-title: Physical Review
+  volume: '79'
+  issue: '2'
+  page: 357-364
+  DOI: 10.1103/PhysRev.79.357
+  issued:
+    date-parts:
+    - - 1950

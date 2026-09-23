@@ -1,0 +1,412 @@
+[
+ {
+  "id": "amari2000",
+  "families": [
+   "Amari",
+   "Nagaoka"
+  ],
+  "authors_text": "Amari, S., & Nagaoka, H.",
+  "year": "2000",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "beltrami1868",
+  "families": [
+   "Beltrami"
+  ],
+  "authors_text": "Beltrami, E.",
+  "year": "1868",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "bengio2003",
+  "families": [
+   "Bengio",
+   "Ducharme",
+   "Vincent",
+   "Jauvin"
+  ],
+  "authors_text": "Bengio, Y., Ducharme, R., Vincent, P., & Jauvin, C.",
+  "year": "2003",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "billera2001",
+  "families": [
+   "Billera",
+   "Holmes",
+   "Vogtmann"
+  ],
+  "authors_text": "Billera, L. J., Holmes, S. P., & Vogtmann, K.",
+  "year": "2001",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "bramwell2001",
+  "families": [
+   "Bramwell",
+   "Gingras"
+  ],
+  "authors_text": "Bramwell, S. T., & Gingras, M. J. P.",
+  "year": "2001",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "bronstein2021",
+  "families": [
+   "Bronstein",
+   "Bruna",
+   "Cohen",
+   "Veličković"
+  ],
+  "authors_text": "Bronstein, M. M., Bruna, J., Cohen, T., & Veličković, P.",
+  "year": "2021",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "carlsson2009",
+  "families": [
+   "Carlsson"
+  ],
+  "authors_text": "Carlsson, G.",
+  "year": "2009",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "chalmers1995",
+  "families": [
+   "Chalmers"
+  ],
+  "authors_text": "Chalmers, D. J.",
+  "year": "1995",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "riemann1873",
+  "families": [
+   "Clifford"
+  ],
+  "authors_text": "Clifford, W. K.",
+  "year": "1873",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "desargues1639",
+  "families": [
+   "Desargues"
+  ],
+  "authors_text": "Desargues, G.",
+  "year": "1639",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "descartes1637",
+  "families": [
+   "Descartes"
+  ],
+  "authors_text": "Descartes, R.",
+  "year": "1637",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "durant2017",
+  "families": [
+   "Durant",
+   "Morokuma",
+   "Fields",
+   "Williams",
+   "Adams",
+   "Levin"
+  ],
+  "authors_text": "Durant, F., Morokuma, J., Fields, C., Williams, K., Adams, D. S., & Levin, M.",
+  "year": "2017",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "einstein1916",
+  "families": [
+   "Einstein"
+  ],
+  "authors_text": "Einstein, A.",
+  "year": "1916",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "engels2024",
+  "families": [
+   "Engels",
+   "Liao",
+   "Michaud",
+   "Gurnee",
+   "Tegmark"
+  ],
+  "authors_text": "Engels, J., Liao, I., Michaud, E. J., Gurnee, W., & Tegmark, M.",
+  "year": "2024",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "euclid1956",
+  "families": [
+   "Euclid."
+  ],
+  "authors_text": "Euclid.",
+  "year": "1956",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "gardenfors2000",
+  "families": [
+   "Gärdenfors"
+  ],
+  "authors_text": "Gärdenfors, P.",
+  "year": "2000",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "gauss1828",
+  "families": [
+   "Gauss"
+  ],
+  "authors_text": "Gauss, C. F.",
+  "year": "1828",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "gibbs1902",
+  "families": [
+   "Gibbs"
+  ],
+  "authors_text": "Gibbs, J. W.",
+  "year": "1902",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "gray2008",
+  "families": [
+   "Gray"
+  ],
+  "authors_text": "Gray, J.",
+  "year": "2008",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "gurnee2023",
+  "families": [
+   "Gurnee",
+   "Tegmark"
+  ],
+  "authors_text": "Gurnee, W., & Tegmark, M.",
+  "year": "2023",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "huh2024",
+  "families": [
+   "Huh",
+   "Cheung",
+   "Wang",
+   "Isola"
+  ],
+  "authors_text": "Huh, M., Cheung, B., Wang, T., & Isola, P.",
+  "year": "2024",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "kantamneni2025",
+  "families": [
+   "Kantamneni",
+   "Tegmark"
+  ],
+  "authors_text": "Kantamneni, S., & Tegmark, M.",
+  "year": "2025",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "klein1872",
+  "families": [
+   "Klein"
+  ],
+  "authors_text": "Klein, F.",
+  "year": "1872",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "kriegeskorte2008",
+  "families": [
+   "Kriegeskorte",
+   "Mur",
+   "Bandettini"
+  ],
+  "authors_text": "Kriegeskorte, N., Mur, M., & Bandettini, P. A.",
+  "year": "2008",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "landauer1997",
+  "families": [
+   "Landauer",
+   "Dumais"
+  ],
+  "authors_text": "Landauer, T. K., & Dumais, S. T.",
+  "year": "1997",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "levin2022",
+  "families": [
+   "Levin"
+  ],
+  "authors_text": "Levin, M.",
+  "year": "2022",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "li2023",
+  "families": [
+   "Li",
+   "Hopkins",
+   "Bau",
+   "Viégas",
+   "Pfister",
+   "Wattenberg"
+  ],
+  "authors_text": "Li, K., Hopkins, A. K., Bau, D., Viégas, F., Pfister, H., & Wattenberg, M.",
+  "year": "2023",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "lobachevsky1829",
+  "families": [
+   "Lobachevsky"
+  ],
+  "authors_text": "Lobachevsky, N. I.",
+  "year": "1829",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "maclane1992",
+  "families": [
+   "Mac Lane",
+   "Moerdijk"
+  ],
+  "authors_text": "Mac Lane, S., & Moerdijk, I.",
+  "year": "1992",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "mcghee1999",
+  "families": [
+   "McGhee"
+  ],
+  "authors_text": "McGhee, G. R.",
+  "year": "1999",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "mikolov2013",
+  "families": [
+   "Mikolov",
+   "Chen",
+   "Corrado",
+   "Dean"
+  ],
+  "authors_text": "Mikolov, T., Chen, K., Corrado, G., & Dean, J.",
+  "year": "2013",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "mitteroecker2009",
+  "families": [
+   "Mitteroecker",
+   "Huttegger"
+  ],
+  "authors_text": "Mitteroecker, P., & Huttegger, S. M.",
+  "year": "2009",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "nanda2023",
+  "families": [
+   "Nanda",
+   "Chan",
+   "Lieberum",
+   "Smith",
+   "Steinhardt"
+  ],
+  "authors_text": "Nanda, N., Chan, L., Lieberum, T., Smith, J., & Steinhardt, J.",
+  "year": "2023",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "pauling1935",
+  "families": [
+   "Pauling"
+  ],
+  "authors_text": "Pauling, L.",
+  "year": "1935",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "poincare1895",
+  "families": [
+   "Poincaré"
+  ],
+  "authors_text": "Poincaré, H.",
+  "year": "1895",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "raup1966",
+  "families": [
+   "Raup"
+  ],
+  "authors_text": "Raup, D. M.",
+  "year": "1966",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "riemann1868",
+  "families": [
+   "Riemann"
+  ],
+  "authors_text": "Riemann, B.",
+  "year": "1868",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "saccheri1733",
+  "families": [
+   "Saccheri"
+  ],
+  "authors_text": "Saccheri, G.",
+  "year": "1733",
+  "status": "UNVERIFIED"
+ },
+ {
+  "id": "torretti1978",
+  "families": [
+   "Torretti"
+  ],
+  "authors_text": "Torretti, R.",
+  "year": "1978",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "tymoczko2006",
+  "families": [
+   "Tymoczko"
+  ],
+  "authors_text": "Tymoczko, D.",
+  "year": "2006",
+  "status": "VERIFIED-CROSSREF"
+ },
+ {
+  "id": "wannier1950",
+  "families": [
+   "Wannier"
+  ],
+  "authors_text": "Wannier, G. H.",
+  "year": "1950",
+  "status": "UNVERIFIED"
+ }
+]

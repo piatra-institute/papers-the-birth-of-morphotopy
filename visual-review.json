@@ -1,5 +1,5 @@
 {
-  "pdf_sha256": "44ebb3d8632b89ac1f5a8b9cc4dc04ff599e29929a9fd1bdebe93496f0ef2b92",
+  "pdf_sha256": "1207cddf64efe957bc9d7ed395298110017032856dbc7c113474e4601f6c3006",
   "page_count": 18,
   "pages_inspected": [
     1,
@@ -22,5 +22,5 @@
     18
   ],
   "all_pages_inspected": true,
-  "notes": "All 18 pages inspected after the prose revision; figure titles replaced with descriptive ones, and the spin diagrams in Figure 2 fixed so that all spin arrows render (two square-plaquette arrows were previously clipped) and no arrow overlaps a panel title. Metadata-only rebuild: the web blurb in metadata.yaml, a hashed build input, changed, so the PDF was re-rendered (352183b64972 to 44ebb3d8632b); the rendered text is byte-for-byte identical and no page was re-inspected."
+  "notes": "All 18 pages inspected after the migration; citations and the citeproc reference list render correctly, no unresolved keys, foreign-language titles keep their original capitalization. Metadata-only rebuild: the web blurb in metadata.yaml, a hashed build input, changed, so the PDF was re-rendered (383ed25fb93f to 1207cddf64ef); the rendered text is byte-for-byte identical and no page was re-inspected."
 }

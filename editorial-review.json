@@ -1,10 +1,10 @@
 {
-  "manuscript_sha256": "70c5b2eb3be385559123070f972a36c01d2eda0afa2d059525f4a838a885fb27",
+  "manuscript_sha256": "ae44a29d8cf589ec973faa395b0304aace5376c6b5d3c700a6b08ab593a7dd81",
   "full_read": true,
   "argument_review": true,
   "structure_review": true,
   "voice_review": true,
   "source_review": true,
   "final_read": true,
-  "notes": "Prose revision: descriptive headings and subheadings; abstract rewritten (260 words) with the key stratigraphy numbers; 'rather than' (25), 'not X but Y' contrasts, self-reference, and aphoristic lines ('The earth was only the first terrain', 'Saccheri has done the geometry and refused to believe it', 'the seed of a macroscopic fact') replaced with declaratives; the triangular-lattice results restated accurately; every number and citation preserved."
+  "notes": "Structured-evidence migration: inline bibliography converted to references.yaml (CSL) with Pandoc [@id] citations; claims.yaml ledger and execution receipt added; prose otherwise unchanged apart from citation markers where the text names a cited work with its date. Author order of Engels et al. corrected from the arXiv record."
 }
