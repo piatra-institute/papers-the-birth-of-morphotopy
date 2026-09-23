@@ -1,5 +1,5 @@
 {
-  "pdf_sha256": "1207cddf64efe957bc9d7ed395298110017032856dbc7c113474e4601f6c3006",
+  "pdf_sha256": "a7c2e4b632934daddfce138ea8558ca86419c75faed3cf1b2fba6bf72ee5f0e7",
   "page_count": 18,
   "pages_inspected": [
     1,
@@ -22,5 +22,5 @@
     18
   ],
   "all_pages_inspected": true,
-  "notes": "All 18 pages inspected after the migration; citations and the citeproc reference list render correctly, no unresolved keys, foreign-language titles keep their original capitalization. Metadata-only rebuild: the web blurb in metadata.yaml, a hashed build input, changed, so the PDF was re-rendered (383ed25fb93f to 1207cddf64ef); the rendered text is byte-for-byte identical and no page was re-inspected."
+  "notes": "All 18 pages inspected after the migration; citations and the citeproc reference list render correctly, no unresolved keys, foreign-language titles keep their original capitalization. Metadata-only rebuild: the web blurb in metadata.yaml, a hashed build input, changed, so the PDF was re-rendered (1207cddf64ef to a7c2e4b63293); the rendered text is byte-for-byte identical and no page was re-inspected."
 }
