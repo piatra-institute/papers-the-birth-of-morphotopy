@@ -1,14 +1,33 @@
 slug: the-birth-of-morphotopy
 web_slug: the-birth-of-morphotopy
-title: "The Birth of Morphotopy: From Earth-Measure to the Spaces of Life and Mind"
-header: "The Birth of Morphotopy"
-created: "2026-06"        # inception month (drives YYYY/MM archive path)
-date: "June 2026"             # publication month, e.g. "May 2026" (shown on web)
+title: 'The Birth of Morphotopy: From Earth-Measure to the Spaces of Life and Mind'
+header: The Birth of Morphotopy
+created: 2026-06
+date: June 2026
 paper_dir: paper
 has_simulation: true
-claims_target: results.json   # results.json | claim-ledger | none
+claims_target: results.json
 repo: git@github.com:piatra-institute/papers-the-birth-of-morphotopy.git
 github: https://github.com/piatra-institute/papers-the-birth-of-morphotopy
-status: published             # draft | built | published
-abstract: |-
-  Across physics, biology, cognitive science, and machine learning the same move recurs: a domain that is not spatial is rendered as a structured space of possible forms, and its behaviour is treated as movement, transformation, and constraint within that space. Configuration spaces, morphospaces, conceptual spaces, and the latent spaces of trained networks are instances. This paper argues that the move is not a set of independent metaphors but the latest phase of one long process in the history of geometry, the progressive detachment of form from physical extension. We trace that history stratigraphically, from the surveyor's field and the Euclidean figure through coordinates, the collapse of the parallel postulate, Riemann's intrinsic manifold, Klein's transformation groups, topology, phase space, and information geometry, to biological morphospace and the representational geometry of brains and machines, each stratum remaining in use beneath the next. We then name the current phase morphotopy and, so that the name does more than relabel, give five conditions a treatment must satisfy to count as a morphotopic one rather than a spatial figure of speech, and apply them to cases that pass and cases that fail. One structural obstruction is definable in any of these spaces, geometric frustration, the failure of locally satisfiable constraints to compose into a global solution; we exhibit it exactly in a minimal spin model, the one stratum where it can be computed cleanly, and argue rather than demonstrate its recurrence elsewhere. We date the strata to show that the abstraction accelerates, three quarters of them falling in the last twentieth of the span, an acceleration that is in part a feature of how finely the recent strata are individuated. The claim is historical and organizational rather than a new mathematics, and it is bounded: rendering the structure of a mind as navigable geometry is not an account of why there is experience.
+status: published
+abstract: In physics, biology, cognitive science, and machine learning, a recurrent procedure renders
+  a non-spatial domain as a structured space of possible forms and treats its behaviour as constrained
+  movement within that space; configuration spaces, morphospaces, conceptual spaces, and the latent spaces
+  of trained networks are instances. We argue that this recurrence is the latest phase of a long process
+  in the history of geometry, the progressive detachment of form from physical extension, and not a collection
+  of independent metaphors. The history is traced stratigraphically, from land survey and the Euclidean
+  figure through coordinates, non-Euclidean geometry, Riemann's intrinsic manifold, Klein's transformation
+  groups, topology, phase space, and information geometry, to biological morphospace and the representational
+  geometry of brains and machines, with each stratum remaining in use beneath the next. We name the current
+  phase *morphotopy* and state five conditions that distinguish a morphotopic treatment from a spatial
+  figure of speech, applying them to cases that pass and cases that fail. One structural obstruction,
+  geometric frustration, the failure of locally satisfiable constraints to compose into a global optimum,
+  is definable in any such space; exact enumeration exhibits it in minimal spin models, and its recurrence
+  elsewhere is argued without being demonstrated. Dating sixteen strata shows that 12 fall within the
+  last 197 of 3826 years, with the mean interval between strata contracting from about 1146 years to about
+  18, an acceleration that partly reflects how finely recent strata are individuated. The contribution
+  is historical and organizational, and a geometric account of the structure of a mind does not explain
+  why there is experience.
+web_blurb: The history of geometry is traced as the progressive detachment of form from physical extension,
+  from land survey to the representational spaces of organisms and neural networks. Five conditions distinguish
+  a substantive space of possible forms from a spatial metaphor.

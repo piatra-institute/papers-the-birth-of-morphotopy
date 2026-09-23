@@ -23,7 +23,7 @@ def plot_stratigraphy(path: str) -> None:
     ax.set_ylim(-0.6, len(strata) - 0.4)
     ax.set_xscale("symlog")
     ax.set_xlabel("year of emergence (symlog; BCE negative)")
-    ax.set_title("The strata of geometric reason accelerate toward the present")
+    ax.set_title("Sixteen strata of geometric reason by year of emergence")
 
     # inset: cumulative count vs (linear) year, in the empty lower-right
     ins = ax.inset_axes([0.42, 0.12, 0.40, 0.34])
@@ -50,7 +50,11 @@ def _draw_spins(ax, pts, spins, edges, frustrated):
         ax.scatter([x], [y], s=240, color="white", edgecolor="#333", zorder=2)
         ax.annotate("", xy=(x, y + (0.14 if spins[k] > 0 else -0.14)),
                     xytext=(x, y - (0.14 if spins[k] > 0 else -0.14)),
-                    arrowprops=dict(arrowstyle="-|>", color="#333", lw=1.6), zorder=3)
+                    arrowprops=dict(arrowstyle="-|>", color="#333", lw=1.6), zorder=3,
+                    annotation_clip=False)
+    xs_, ys_ = [x for x, _ in pts], [y for _, y in pts]
+    ax.set_xlim(min(xs_) - 0.3, max(xs_) + 0.3)
+    ax.set_ylim(min(ys_) - 0.35, max(ys_) + 0.35)
     ax.set_aspect("equal"); ax.axis("off")
 
 
@@ -62,12 +66,12 @@ def plot_frustration(path: str) -> None:
     # (a) triangle, a ground state [+,+,-]: bond 0-1 is frustrated
     tri = [(0.0, 0.0), (1.0, 0.0), (0.5, 0.87)]
     _draw_spins(axes[0], tri, [1, 1, -1], [(0, 1), (1, 2), (0, 2)], {(0, 1)})
-    axes[0].set_title("triangle: 1 of 3\nbonds frustrated", fontsize=9)
+    axes[0].set_title("triangle ground state:\n1 of 3 bonds unsatisfied", fontsize=9)
 
     # (b) square, checkerboard [+,-,+,-]: every bond satisfied
     sq = [(0.0, 0.0), (1.0, 0.0), (1.0, 1.0), (0.0, 1.0)]
     _draw_spins(axes[1], sq, [1, -1, 1, -1], [(0, 1), (1, 2), (2, 3), (0, 3)], set())
-    axes[1].set_title("square: every\nbond satisfied", fontsize=9)
+    axes[1].set_title("square ground state:\nall 4 bonds satisfied", fontsize=9)
 
     # (c) triangular-lattice scaling
     ns = [f["triangle"]["n_spins"]] + [L["n_spins"] for L in f["triangular_lattices"]]
@@ -83,7 +87,7 @@ def plot_frustration(path: str) -> None:
             f"Wannier {f['wannier_entropy_per_spin']}", fontsize=7, ha="right", color="#555")
     ax.axhline(1 / 3, ls=":", lw=0.8, color="#b71c1c", alpha=0.5)
     ax.set_xlabel("spins $N$ (triangular lattice)"); ax.set_ylim(0, 0.7)
-    ax.set_title("the triangle's signatures persist", fontsize=9)
+    ax.set_title("Triangle ($N=3$) and periodic triangular lattices", fontsize=9)
     ax.legend(fontsize=7, loc="upper right")
 
     fig.tight_layout(); fig.savefig(path, dpi=140); plt.close(fig)

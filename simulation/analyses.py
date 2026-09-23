@@ -129,8 +129,10 @@ def _plaquette(edges: list[tuple[int, int]], n: int, J: float = 1.0) -> dict:
 # distinct bonds. Exact ground-state enumeration: in one pass over the 2^N spin
 # configurations, track the minimum energy, its degeneracy, and one ground
 # configuration (to read off the frustrated-bond fraction). The single triangle
-# is the L1=L2 -> small limit; as N grows the per-spin ground-state entropy
-# climbs toward Wannier's exact thermodynamic value S/N ~ 0.3231.
+# is the smallest frustrated unit; on these small tori the per-spin ground-state
+# entropy is strongly size-dependent (tori with L not a multiple of 3 cannot hold
+# the three-sublattice states) and scatters around Wannier's exact thermodynamic
+# value S/N ~ 0.3231 without converging to it.
 # ----------------------------------------------------------------------------
 WANNIER_ENTROPY_PER_SPIN = 0.3231  # Wannier (1950, corr. 1973), triangular Ising AF
 

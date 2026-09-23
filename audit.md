@@ -3,6 +3,13 @@
 Dated log of editorial passes and verification runs. Newest first.
 See the workspace docs (run `papers docs`): writing-pipeline.md §7 and refresh-pipeline.md.
 
+## 2026-09-23 — prose revision
+
+Prose revised against the house standards. Headings made descriptive (Introduction, Land survey and the Euclidean figure, Coordinates and non-Euclidean geometry, Transformation groups and topology, State spaces, Spaces of life and mind, Morphotopy: definition and criteria, Computations, Limitations and conclusion), with descriptive subsection titles.
+Tic counts before -> after: 'rather than' 25 -> 0; 'not X but Y' 11 -> 0; 'this paper' 1 -> 0; exactly/precisely 11 -> 2.
+Corrections: (1) Section 8.2 said the residual entropy per spin ranged "across these small tori from 0.5973 down to 0.2336"; 0.5973 is the single triangle, and the tori give 0.4153, 0.3516 and 0.2336 (N = 9, 12, 16), now stated individually. (2) The same passage called the lattice ground state "extensively degenerate"; the degeneracies 42, 68, 42 do not grow with N on these tori, so the claim was removed and the finite-size limitation stated (the 4x4 torus cannot hold three-sublattice ground states); the analyses.py comment that the entropy "climbs toward" Wannier's value was corrected to match the output. (3) "a history that opens before 1800 BCE" -> "begins around 1800 BCE", matching the earliest dated stratum. (4) The text now states that the sixteenth stratum is the one proposed in the manuscript, dated 2026.
+Grid audit: no thresholds or optima are read from grids; the stratigraphy statistics are arithmetic on sixteen stated dates (recomputed: span 3826, largest gap 1937, 12 of 16 after 1829, mean gaps 1146 and 18, ratio 64), and the frustration results are exact enumerations. results.json unchanged by the figure edits.
+
 ## 2026-06-13 — voice reform
 
 Voice-reform pass for AI-writing tells. No number, equation, figure-caption value, table value, or citation touched; results.json claims reconcile (0 unmatched), refs unchanged (19 in-text keys, 41 entries, 0 missing).
